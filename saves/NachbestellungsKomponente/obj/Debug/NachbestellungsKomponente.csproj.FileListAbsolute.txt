@@ -1,0 +1,7 @@
+C:\Projects\c#\HES\NachbestellungsKomponente\bin\Debug\NachbestellungsKomponente.dll
+C:\Projects\c#\HES\NachbestellungsKomponente\bin\Debug\NachbestellungsKomponente.pdb
+C:\Projects\c#\HES\NachbestellungsKomponente\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\c#\HES\NachbestellungsKomponente\obj\Debug\NachbestellungsKomponente.dll
+C:\Projects\c#\HES\NachbestellungsKomponente\obj\Debug\NachbestellungsKomponente.pdb
+C:\Projects\c#\HES\NachbestellungsKomponente\bin\Debug\NullTypen.dll
+C:\Projects\c#\HES\NachbestellungsKomponente\bin\Debug\NullTypen.pdb

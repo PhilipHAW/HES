@@ -1,0 +1,9 @@
+C:\Projects\c#\HES\Communication\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\c#\HES\Communication\bin\Debug\Communication.dll
+C:\Projects\c#\HES\Communication\bin\Debug\Communication.pdb
+C:\Projects\c#\HES\Communication\obj\Debug\Communication.dll
+C:\Projects\c#\HES\Communication\obj\Debug\Communication.pdb
+C:\Projects\c#\HES\Communication\bin\Debug\x64\SQLite.Interop.dll
+C:\Projects\c#\HES\Communication\bin\Debug\x86\SQLite.Interop.dll
+C:\Projects\c#\HES\Communication\bin\Debug\System.Data.SQLite.dll
+C:\Projects\c#\HES\Communication\bin\Debug\System.Data.SQLite.Linq.dll

@@ -1,0 +1,9 @@
+C:\Projects\c#\HES\NullTypen\bin\Debug\NullTypen.dll
+C:\Projects\c#\HES\NullTypen\bin\Debug\NullTypen.pdb
+C:\Projects\c#\HES\NullTypen\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\c#\HES\NullTypen\obj\Debug\NullTypen.dll
+C:\Projects\c#\HES\NullTypen\obj\Debug\NullTypen.pdb
+C:\Projects\c#\HES\NullTypen\bin\Debug\x64\SQLite.Interop.dll
+C:\Projects\c#\HES\NullTypen\bin\Debug\x86\SQLite.Interop.dll
+C:\Projects\c#\HES\NullTypen\bin\Debug\System.Data.SQLite.dll
+C:\Projects\c#\HES\NullTypen\bin\Debug\System.Data.SQLite.Linq.dll

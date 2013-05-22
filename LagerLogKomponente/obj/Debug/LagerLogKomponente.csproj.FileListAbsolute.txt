@@ -1,0 +1,17 @@
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\LagerLogKomponente.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\LagerLogKomponente.pdb
+C:\Projects\c#\HES\LagerLogKomponente\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\c#\HES\LagerLogKomponente\obj\Debug\LagerLogKomponente.dll
+C:\Projects\c#\HES\LagerLogKomponente\obj\Debug\LagerLogKomponente.pdb
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\FluentNHibernate.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\Iesi.Collections.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\NHibernate.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\FluentNHibernate.xml
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\Iesi.Collections.xml
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\NHibernate.xml
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\NullTypen.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\NullTypen.pdb
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\x64\SQLite.Interop.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\x86\SQLite.Interop.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\System.Data.SQLite.dll
+C:\Projects\c#\HES\LagerLogKomponente\bin\Debug\System.Data.SQLite.Linq.dll

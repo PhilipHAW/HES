@@ -1,0 +1,17 @@
+C:\Projects\c#\HES\KundenKomponente\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\KundenKomponente.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\KundenKomponente.pdb
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\FluentNHibernate.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\Iesi.Collections.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\NHibernate.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\NullTypen.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\NullTypen.pdb
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\FluentNHibernate.xml
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\Iesi.Collections.xml
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\NHibernate.xml
+C:\Projects\c#\HES\KundenKomponente\obj\Debug\KundenKomponente.dll
+C:\Projects\c#\HES\KundenKomponente\obj\Debug\KundenKomponente.pdb
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\x64\SQLite.Interop.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\x86\SQLite.Interop.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\System.Data.SQLite.dll
+C:\Projects\c#\HES\KundenKomponente\bin\Debug\System.Data.SQLite.Linq.dll
