@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdressTyp.cs" />
-    <Compile Include="Mapping\AdressCompnentMap.cs" />
+    <Compile Include="Mapping\AdressTypMap.cs" />
     <Compile Include="TransportTypen\BestellungTyp.cs" />
     <Compile Include="TransportTypen\KundenTyp.cs" />
     <Compile Include="TransportTypen\LieferantTyp.cs" />
