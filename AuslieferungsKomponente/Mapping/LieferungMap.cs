@@ -17,15 +17,8 @@ namespace AuslieferungsKomponente.Mapping
             HasOne(x => x.transportAuftrag).PropertyRef(x => x.lieferung);
             Map(x => x.AuftragId);
             Map(x => x.Lieferadresse);
-            Map(x => x.Lieferdatum);
-            HasMany(x => x.Posten)
-                .KeyColumn("id")
-                .Table("Posten")
-                .Component(y =>
-                {
-                    y.Map(x => x.Menge);
-                    y.Map(x => x.ProduktId);
-                });
+            
+            
         }
     }
 }

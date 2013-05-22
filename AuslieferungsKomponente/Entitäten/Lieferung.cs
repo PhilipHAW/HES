@@ -14,19 +14,19 @@ namespace AuslieferungsKomponente.Entitäten
         public virtual int lieferNummer { get; protected set; }
         public virtual TransportAuftrag transportAuftrag { get; protected set; }
         public virtual bool LieferungErfolgt { get; set; }
-        public virtual int AuftragId { get; protected set; }
+        public virtual string AuftragId { get; protected set; }
         public virtual AdressTyp Lieferadresse { get; protected set; }
-        public virtual DateTime Lieferdatum { get; protected set; }
-        public virtual IList<LieferPosten> Posten { get; protected set; }
+        
+        
 
 
-        public Lieferung(int lieferNummer, int auftragId, AdressTyp lieferadresse, DateTime lieferdatum, IList<LieferPosten> posten)
+        public Lieferung(int lieferNummer, string auftragId )
         {
             this.lieferNummer = lieferNummer;
             this.AuftragId = auftragId;
-            this.Lieferadresse = lieferadresse;
-            this.Lieferdatum = lieferdatum;
-            this.Posten = posten;
+            
+            
+            
         }
         /// <summary>
         /// Leerer Konstruktor für Hibernate
