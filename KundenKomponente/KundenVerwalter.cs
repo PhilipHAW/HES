@@ -87,6 +87,26 @@ namespace KundenKomponente
             return highestUsedId;
         }
 
+
+        internal bool ExistiertKunde(int kundenNummer)
+        {
+            using (var session = sessionFactory.OpenSession())
+            {
+                using (session.BeginTransaction())
+                {
+                    var kunden = session.CreateCriteria(typeof(Kunde)).List<Kunde>();
+
+                    foreach (var kunde in kunden)
+                    {
+                        if (kunde.KundenNummer == kundenNummer)
+                        { return true; }
+                    }
+                }
+            }
+
+            return false;
+
+        }
     }
 
 }

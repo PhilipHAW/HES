@@ -30,5 +30,10 @@ namespace KundenKomponente
             return this.kundenVerwalter.getKunde(kundenNummer).GibTransportObjekt();
 
         }
+
+        internal bool ExistiertKunde(int kundenNummer)
+        {
+          return  kundenVerwalter.ExistiertKunde(kundenNummer);
+        }
     }
 }

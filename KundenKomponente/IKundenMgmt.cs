@@ -15,7 +15,7 @@ namespace KundenKomponente
 
         KundenTyp GetKunde(int kundenNummer);
 
-        bool existiertKunde(int Kundennummer);
+        bool ExistiertKunde(int kundenNummer);
 
 
     }

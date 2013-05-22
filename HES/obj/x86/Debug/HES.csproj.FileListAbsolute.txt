@@ -35,3 +35,5 @@ C:\Projects\c#\HES\HES\bin\Debug\x64\SQLite.Interop.dll
 C:\Projects\c#\HES\HES\bin\Debug\x86\SQLite.Interop.dll
 C:\Projects\c#\HES\HES\bin\Debug\System.Data.SQLite.dll
 C:\Projects\c#\HES\HES\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\x\HES\HES\obj\x86\Debug\HES.exe
+C:\Users\x\HES\HES\obj\x86\Debug\HES.pdb
