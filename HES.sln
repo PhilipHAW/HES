@@ -24,8 +24,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaWiSubSystem", "WaWiSubSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullTypen", "NullTypen\NullTypen.csproj", "{A970726D-C120-4C3A-8314-3338014F8C91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication", "Communication\Communication.csproj", "{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagerLogKomponente", "LagerLogKomponente\LagerLogKomponente.csproj", "{E40D34DF-0B26-432F-8228-397902B36889}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProduktKomponente", "ProduktKomponente\ProduktKomponente.csproj", "{4E7E2D7D-5FFB-42AB-89BF-BAE3E43CFAD1}"
@@ -99,16 +97,6 @@ Global
 		{A970726D-C120-4C3A-8314-3338014F8C91}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A970726D-C120-4C3A-8314-3338014F8C91}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A970726D-C120-4C3A-8314-3338014F8C91}.Release|x86.ActiveCfg = Release|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}.Release|x86.ActiveCfg = Release|Any CPU
 		{E40D34DF-0B26-432F-8228-397902B36889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E40D34DF-0B26-432F-8228-397902B36889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40D34DF-0B26-432F-8228-397902B36889}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU

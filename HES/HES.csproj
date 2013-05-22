@@ -74,10 +74,6 @@
       <Project>{A1B0AD1B-6E65-4F97-9554-2B4CDEB255D8}</Project>
       <Name>AuslieferungsKomponente</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Communication\Communication.csproj">
-      <Project>{EBAED48C-8D65-41AC-8D9A-20404F99AA5B}</Project>
-      <Name>Communication</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HES_AAIKomponente\HESFassadeKomponente.csproj">
       <Project>{6951F025-C72E-4B12-B28E-428114A03420}</Project>
       <Name>HESFassadeKomponente</Name>
