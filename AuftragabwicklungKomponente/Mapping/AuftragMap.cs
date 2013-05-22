@@ -17,9 +17,10 @@ namespace AuftragabwicklungKomponente.Mapping
 
             Map(x => x.AuftragId).Not.Nullable();
             HasOne(x => x.Angebot);
-            Map(x => x.IstLieferbar).Not.Nullable();
+            Map(x => x.IstLieferbar);
             Map(x => x.IstAbgeschlossen).Not.Nullable();
             Map(x => x.BeauftragtAm).Not.Nullable();
+            Map(x => x.LieferDatum);
             Map(x => x.LetzterPostenLieferbar).Not.Nullable();
         }
 

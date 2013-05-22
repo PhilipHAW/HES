@@ -121,14 +121,12 @@ namespace AuftragabwicklungKomponente
         /// <returns>Das späteste Datum, das ein Posten (Produkt) hat bis es ausgeliefert werden kann, sprich im Lager vorätig ist.</returns>
         private DateTime VersandanfrageTriggern(Angebot angebot)
         {
-            //Posten umwandeln in andere Repräesntation zum aus der Komponenten rausgeben
+            //Posten umwandeln um Versandanfrage damit zu stellen
             IDictionary<int, int> produktnr_Anzahl = new Dictionary<int, int>();
-            IList<Posten> postenListe = angebot.Posten;
 
-
-            foreach (Posten posten in postenListe)
+            foreach (Posten posten in angebot.Posten)
             {
-                produktnr_Anzahl.Add(posten.Produkt.ProduktId, posten.Menge);
+                produktnr_Anzahl.Add(posten.ProduktId, posten.Menge);
             }
 
             //Versandanfrage machen

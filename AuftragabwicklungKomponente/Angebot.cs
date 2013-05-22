@@ -59,7 +59,7 @@ namespace AuftragabwicklungKomponente
 
             foreach (KeyValuePair<ProduktTyp, int> produkt_menge in posten)
             {
-                this.Posten.Add(new Posten(produkt_menge.Key, produkt_menge.Value));
+                this.Posten.Add(new Posten(produkt_menge.Key.ProduktId, produkt_menge.Key.Preis, produkt_menge.Key.Name, produkt_menge.Value));
                 this.GesamtPreisNetto += produkt_menge.Key.Preis;
             }
 

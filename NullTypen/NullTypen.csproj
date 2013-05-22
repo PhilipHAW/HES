@@ -67,10 +67,9 @@
     <Compile Include="TransportTypen\Mapping\AngebotTypMap.cs" />
     <Compile Include="TransportTypen\Mapping\AuftragTypMap.cs" />
     <Compile Include="TransportTypen\Mapping\EinkaufInfoSatzTypMap.cs" />
-    <Compile Include="TransportTypen\Mapping\PostenTypMap.cs" />
     <Compile Include="TransportTypen\Mapping\ProduktTypMap.cs" />
-    <Compile Include="TransportTypen\Produkt_LieferdatumTyp.cs" />
     <Compile Include="TransportTypen\PostenTyp.cs" />
+    <Compile Include="TransportTypen\Produkt_LieferdatumTyp.cs" />
     <Compile Include="TransportTypen\ProduktTyp.cs" />
   </ItemGroup>
   <ItemGroup>

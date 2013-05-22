@@ -69,7 +69,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\Projects\c#\HES\NullTypen\NullTypen.csproj">
+    <ProjectReference Include="..\NullTypen\NullTypen.csproj">
       <Project>{A970726D-C120-4C3A-8314-3338014F8C91}</Project>
       <Name>NullTypen</Name>
     </ProjectReference>

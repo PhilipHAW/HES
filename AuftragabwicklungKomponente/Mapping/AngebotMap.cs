@@ -19,7 +19,7 @@ namespace AuftragabwicklungKomponente.Mapping
             Map(x => x.AngebotId).Not.Nullable();
             Map(x => x.GueltigAb).Not.Nullable();
             Map(x => x.GueltigBis).Not.Nullable();
-            HasMany(x => x.Posten).Cascade.All().LazyLoad();
+            HasMany(x => x.Posten).Cascade.SaveUpdate();
             Map(x => x.Kundennummer).Not.Nullable();
             Map(x => x.Lieferadresse).Not.Nullable();
             Map(x => x.Rechnungsadresse).Not.Nullable();
