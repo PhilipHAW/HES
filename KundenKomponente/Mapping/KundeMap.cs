@@ -16,16 +16,7 @@ namespace KundenKomponente.Mapping
             Map(x => x.VorName);
             Map(x => x.NachName);
             Map(x => x.KundenNummer);
-            HasMany(x => x.LieferAdressen)
-                .KeyColumn("Id")
-                .Table("AdressTyp")
-                .Component(y =>
-                {
-                    y.Map(x => x.Name);
-                    y.Map(x => x.Straße);
-                    y.Map(x => x.HausNummer);
-                    y.Map(x => x.Postleitzahl);
-                });
+            HasMany(x => x.LieferAdressen);
         }
     }
 }

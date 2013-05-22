@@ -29,7 +29,10 @@ namespace KundenKomponente
             return this.kundenLogik.getKunde(kundenNummer);
         }
 
-
+        bool ExistiertKunde(int kundenNummer)
+        {
+            return kundenLogik.ExistiertKunde(kundenNummer);
+        }
 
     }
 }

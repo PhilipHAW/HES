@@ -26,7 +26,8 @@ namespace Rechnungskomponente
 
         public bool RechnungAnlegen(AuftragTyp auftragTyp)
         {
-            return this.rechnungVerwalter.RechnungAnlegen(this.GetNeueRechnungsNummer(), auftragTyp.AngebotTyp.Rechnungsadresse, this.GetRechnungsDatum(), auftragTyp.LieferDatum, this.BerechneMwst(auftragTyp.GetGesamtPreisNetto()), this.BerechneGesamtpreis(auftragTyp.GetGesamtPreisNetto(), 0.0F), auftragTyp.GetGesamtPreisNetto(), this.BerechneBruttoPreis(auftragTyp.GetGesamtPreisNetto()), 0.0F, auftragTyp.GetPosten());
+           // return this.rechnungVerwalter.RechnungAnlegen(this.GetNeueRechnungsNummer(), this.GetRechnungsDatum(), auftragTyp.LieferDatum, 0.0F, this.BerechneGesamtpreis(auftragTyp.GetGesamtPreisNetto(), 0.0F), auftragTyp.GetGesamtPreisNetto(), this.BerechneBruttoPreis(auftragTyp.GetGesamtPreisNetto()), 0.0F, auftragTyp.GetPosten());
+            return this.rechnungVerwalter.RechnungAnlegen(this.GetNeueRechnungsNummer(), this.GetRechnungsDatum(), this.BerechneMwst(auftragTyp.GetGesamtPreisNetto()), auftragTyp.GetGesamtPreisNetto(), this.BerechneBruttoPreis(auftragTyp.GetGesamtPreisNetto()), auftragTyp.AuftragId);
 
         }
 

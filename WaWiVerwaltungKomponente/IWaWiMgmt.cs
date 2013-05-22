@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;a
+using System.Linq;
 using System.Text;
 using WaWiSubSystem.WaWiVerwaltungKomponente;
 using NullTypen.TransportTypen;
+using NullTypen;
 
 
 namespace WaWiSubSystem.WaWiVerwaltungKomponente
@@ -13,7 +14,7 @@ namespace WaWiSubSystem.WaWiVerwaltungKomponente
 
         IList<Produkt_LieferdatumTyp> VersandAnfrage(IDictionary<int, int> produktnr_Anzahl_Dict);
 
-
+        int ProduktErstellen(string name, int lagerbestand, IList<EinkaufInfoSatzTyp>
 
 
 

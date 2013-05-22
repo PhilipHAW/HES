@@ -26,9 +26,9 @@ namespace AuslieferungsKomponente
         /// </summary>
         /// <param name="lieferungNummer"> Ist eine Nummer die auf genau eine Lieferung verweist</param>
         /// <returns> Gibt eine Lieferung zurück</returns>
-        internal Lieferung LieferungErstellen(int lieferungNummer, AuftragTyp auftragTyp)
+        internal Lieferung LieferungErstellen(int lieferungNummer, string auftragId)
         {
-            Lieferung lieferung = new Lieferung(lieferungNummer, auftragTyp);
+            Lieferung lieferung = new Lieferung(lieferungNummer, auftragId);
 
             //persist the new angebot
             using (ISession session = sessionFactory.OpenSession())
@@ -91,7 +91,7 @@ namespace AuslieferungsKomponente
 
                 foreach (Lieferung lieferung in alleLieferungen)
                 {
-                    if (lieferung.AuftragTyp.AuftragId.Equals(auftragNummer))
+                    if (lieferung.AuftragId.Equals(auftragNummer))
                     {
                         gesuchteLieferung = lieferung;
                         break;
@@ -106,7 +106,7 @@ namespace AuslieferungsKomponente
             }
 
 #if DEBUG
-            Console.WriteLine("Geladen: {0}, mit AuftragNummer: {1} (gesucht {2})", gesuchteLieferung, gesuchteLieferung.AuftragTyp.AuftragId, auftragNummer);
+            Console.WriteLine("Geladen: {0}, mit AuftragNummer: {1} (gesucht {2})", gesuchteLieferung, gesuchteLieferung.AuftragId, auftragNummer);
 #endif
 
             return gesuchteLieferung;

@@ -41,9 +41,9 @@ namespace Rechnungskomponente
         /// Gibt ein true beim Erfolgsafall zurück und ein false bei einem Fehler
         /// </returns>
 
-        public bool RechnungAnlegen(int rechnungsNummer, AdressTyp rechnungsAdresse, DateTime rechnungsDatum, DateTime lieferDatum, float mwst, float gesamtPreis, float nettoPreis, float bruttoPreis, float versandKosten, IList<PostenTyp> postenList)
+        public bool RechnungAnlegen(int rechnungsNummer,  DateTime rechnungsDatum, float mwst,  float nettoPreis, float bruttoPreis,  string auftragsID)
         {
-            RechnungClass rechnung = new RechnungClass(rechnungsNummer, rechnungsAdresse, rechnungsDatum, lieferDatum, mwst, gesamtPreis, nettoPreis, bruttoPreis, versandKosten, postenList);
+            RechnungClass rechnung = new RechnungClass(rechnungsNummer, rechnungsDatum,  mwst, nettoPreis, bruttoPreis, auftragsID);
             this.RechnungPersistieren(rechnung);
             return true;
         }
