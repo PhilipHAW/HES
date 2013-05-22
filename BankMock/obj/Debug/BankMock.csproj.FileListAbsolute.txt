@@ -1,5 +1,0 @@
-C:\Projects\c#\HES\BankMock\bin\Debug\BankMock.dll
-C:\Projects\c#\HES\BankMock\bin\Debug\BankMock.pdb
-C:\Projects\c#\HES\BankMock\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\c#\HES\BankMock\obj\Debug\BankMock.dll
-C:\Projects\c#\HES\BankMock\obj\Debug\BankMock.pdb

@@ -1,5 +1,0 @@
-C:\Projects\c#\HES\TrasnportDienstleisterMock\bin\Debug\TrasnportDienstleisterMock.dll
-C:\Projects\c#\HES\TrasnportDienstleisterMock\bin\Debug\TrasnportDienstleisterMock.pdb
-C:\Projects\c#\HES\TrasnportDienstleisterMock\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\c#\HES\TrasnportDienstleisterMock\obj\Debug\TrasnportDienstleisterMock.dll
-C:\Projects\c#\HES\TrasnportDienstleisterMock\obj\Debug\TrasnportDienstleisterMock.pdb
